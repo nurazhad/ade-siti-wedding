@@ -14,7 +14,7 @@ Merupakan Source Code Web Invitation bertema coklat, teknologi yg di gunakan seb
 #### :arrow_right: Clone Project / Download File
 Clone Project dengan perintah terminal `gitbash` sebagai berikut:
 ```
-git clone git@github.com:radhiant/wedding-sandi-may.git
+git clone https://github.com/nurazhad/ade-siti-wedding.git
 ```
 Atau bisa klik tombol download Zip dan extrak file tersebut
 
