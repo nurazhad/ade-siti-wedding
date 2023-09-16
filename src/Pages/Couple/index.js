@@ -23,19 +23,19 @@ export default function Couple() {
         <div id="mempelai" className='grid md:grid-cols-2 grid-cols-1 gap-4 lg:mx-32 mx-4'>
           <div>
             <center>
-              <img src={pria} alt='mempelai-pria' data-aos="fade-up" loading="lazy" className='w-[400px]' />
+              {/* <img src={pria} alt='mempelai-pria' data-aos="fade-up" loading="lazy" className='w-[400px]' /> */}
             </center>
             <h1 data-aos="fade-up" className='text-center custom-font-3 md:text-2xl text-lg text-[#413327] font-bold mb-4'>Mempelai Pria</h1>
-            <h1 data-aos="fade-up" className='text-center custom-font-2 lg:text-6xl text-4xl text-[#413327] font-bold mb-2'>Lorem Ipsum</h1>
-            <p data-aos="fade-up" className='text-[#413327] font-semibold text-center md:text-lg text-sm'>Putra Ketiga dari <br /> Lorem Ipsum & Lorem Ipsum</p>
+            <h1 data-aos="fade-up" className='text-center custom-font-2 lg:text-6xl text-4xl text-[#413327] font-bold mb-2'>Ade Mamat Rahmat</h1>
+            <p data-aos="fade-up" className='text-[#413327] font-semibold text-center md:text-lg text-sm'>Putra  dari <br /> Bapak Omo dan Ibu Darsih</p>
           </div>
           <div>
             <center>
-              <img src={wanita} alt='mempelai-pria' data-aos="fade-up" loading="lazy" className='w-[400px]' />
+              {/* <img src={wanita} alt='mempelai-pria' data-aos="fade-up" loading="lazy" className='w-[400px]' /> */}
             </center>
             <h1 data-aos="fade-up" className='text-center custom-font-3 md:text-2xl text-lg text-[#413327] font-bold mb-4'>Mempelai Wanita</h1>
-            <h1 data-aos="fade-up" className='text-center custom-font-2 lg:text-6xl text-4xl text-[#413327] font-bold mb-2'>Lorem Ipsum</h1>
-            <p data-aos="fade-up" className='text-[#413327] font-semibold text-center md:text-lg text-sm'>Putri dari <br /> Lorem Ipsum & Lorem Ipsum</p>
+            <h1 data-aos="fade-up" className='text-center custom-font-2 lg:text-6xl text-4xl text-[#413327] font-bold mb-2'>Siti Nur Atinah</h1>
+            <p data-aos="fade-up" className='text-[#413327] font-semibold text-center md:text-lg text-sm'>Putri dari <br /> Bapak Husen dan Ibu Fatimah</p>
           </div>
         </div>
       </div>

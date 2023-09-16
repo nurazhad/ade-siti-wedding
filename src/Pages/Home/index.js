@@ -26,7 +26,7 @@ export default function Home({fadeIn}) {
                                 {nama_pasangan}
                             </div>
                             <div className='text-gray-200 font-bold text-lg mb-4'>
-                                01 JANUARI 2024
+                                30 September 2023
                             </div>
                         </div>
                     </div>

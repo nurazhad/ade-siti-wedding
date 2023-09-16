@@ -8,6 +8,8 @@ import { faMapLocation } from '@fortawesome/free-solid-svg-icons'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { alamat } from '../../Constants/global'
+
 export default function Acara() {
   useEffect(() => {
     AOS.init();
@@ -31,11 +33,11 @@ export default function Acara() {
                 <center>
                   <div className='w-24 rounded-lg h-1 bg-white mb-4'></div>
                 </center>
-                <h1 className='text-white text-center font-normal arial mb-8'>RABU <br /> 11 JANUARI 2023 <br /> PUKUL 19.30 WIB - SELESAI</h1>
+                <h1 className='text-white text-center font-normal arial mb-8'>Sabtu <br /> 30 September 2023<br /> PUKUL 08:00 WIB - 10:00 WIB</h1>
                 <center>
                   <div className='w-24 rounded-lg h-1 bg-white mb-4'></div>
                 </center>
-                <h1 className='text-center text-white mb-8'><b>• Kediaman Mempelai Wanita •</b> <br />Lorem Ipsum Dolor Sit Amet</h1>
+                <h1 className='text-center text-white mb-8'><b>• Kediaman Mempelai Wanita •</b> <br />{alamat}</h1>
               </div>
             </div>
             <div data-aos="fade-up" className='rounded-2xl relative bg-resepsi' style={{ backgroundImage: `url(${bg})` }}>
@@ -48,11 +50,11 @@ export default function Acara() {
                 <center>
                   <div className='w-24 rounded-lg h-1 bg-white mb-4'></div>
                 </center>
-                <h1 className='text-white text-center font-normal arial mb-8'>KAMIS <br /> 12 JANUARI 2023 <br /> PUKUL 08.00 WIB - SELESAI</h1>
+                <h1 className='text-white text-center font-normal arial mb-8'>Sabtu <br /> 30 September 2023 <br /> PUKUL 11:00 WIB - SELESAI</h1>
                 <center>
                   <div className='w-24 rounded-lg h-1 bg-white mb-4'></div>
                 </center>
-                <h1 className='text-center text-white mb-8'><b>• Kediaman Mempelai Wanita •</b> <br />Lorem Ipsum Dolor Sit Amet</h1>
+                <h1 className='text-center text-white mb-8'><b>• Kediaman Mempelai Wanita •</b> <br />{alamat}</h1>
               </div>
             </div>
           </div>

@@ -19,10 +19,10 @@ export default function BottomBar({ visible, onMusic }) {
                         <FontAwesomeIcon icon={faCalendar} />
                         <span className='block text-xs text-gray-300 hover:text-white hover:font-bold'>Acara</span>
                     </a>
-                    <a href='#gallery' className='text-center md:mx-4'>
+                    {/* <a href='#gallery' className='text-center md:mx-4'>
                         <FontAwesomeIcon icon={faPhotoVideo} />
                         <span className='block text-xs text-gray-300 hover:text-white hover:font-bold'>Gallery</span>
-                    </a>
+                    </a> */}
                     <a href='#gift' className='text-center md:mx-4'>
                         <FontAwesomeIcon icon={faGift} />
                         <span className='block text-xs text-gray-300 hover:text-white hover:font-bold'>Gift</span>

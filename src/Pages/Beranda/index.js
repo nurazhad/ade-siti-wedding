@@ -66,7 +66,7 @@ export default function Beranda() {
             <Home fadeIn={fadein} />
             <Couple />
             <Acara />
-            <Gallery />
+            {/* <Gallery /> */}
             <Reservasi />
             <Penutup />
             <Protocol />

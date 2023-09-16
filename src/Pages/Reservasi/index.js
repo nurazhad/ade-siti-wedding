@@ -99,7 +99,7 @@ export default function Reservasi() {
         }
     }
 
-    const [expiryTime, setExpiryTime] = useState("1 jan 2024 08:00:00");
+    const [expiryTime, setExpiryTime] = useState("30 Sep 2023 08:00:00");
     const [countdownTime, setCountdownTime] = useState(
         {
             countdownDays: '',

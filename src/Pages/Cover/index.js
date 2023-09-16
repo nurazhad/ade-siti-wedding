@@ -1,6 +1,6 @@
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+// import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
 import { nama_pasangan } from '../../Constants/global'
 import hiasan1 from '../../Img/hiasan-1.png'
 
@@ -10,6 +10,8 @@ export default function Cover({ transformUp, onClick }) {
     //     let searchParams = new URLSearchParams(url.search);
     //     console.log(searchParams.get('to'));
     // })
+    const queryParams = new URLSearchParams(window.location.search)
+    let to = queryParams.get("to")
     return (
         <>
             <div className={`fixed w-full h-full z-20 ${transformUp === true ? 'translate-y-[-700px] opacity-0' : ''} duration-700 cover-1`}>
@@ -24,7 +26,7 @@ export default function Cover({ transformUp, onClick }) {
                                 {nama_pasangan}
                             </div>
                             <div className='text-[#413327] font-bold text-lg mb-4'>
-                                Kpd Bpk/Ibu/Saudara/i
+                                Kpd Bpk/Ibu/Saudara/i <br />"{to}"
                             </div>
                             <p className='text-[#413327] text-sm md:text-lg mb-3 lg:mx-96 md:mx-32 mx-8'>
                                 Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan Kami.
