@@ -72,7 +72,7 @@ export default function Reservasi() {
                 confirmButtonText: 'OKE'
             })
         } else {
-            window.open(`https://api.whatsapp.com/send?phone=6282128942856&text=Hai%20Lorem%20%26%20Ipsum%2C%20saya%20*${rsvpNama}*%20ingin%20konfirmasi%20kehadiran%20pada%20undangan%20pernikahan%20kalian%20bahwa%20*${rsvpKonfir}*%20bersama%20*${rsvpTamu}*%20orang.%20Saya%20ucapkan%3A%0A*${rsvpPesan}*.%20Terima%20kasih%20ya.`, "_blank");
+            window.open(`https://api.whatsapp.com/send?phone=6281399063293&text=Hai%20Lorem%20%26%20Ipsum%2C%20saya%20*${rsvpNama}*%20ingin%20konfirmasi%20kehadiran%20pada%20undangan%20pernikahan%20kalian%20bahwa%20*${rsvpKonfir}*%20bersama%20*${rsvpTamu}*%20orang.%20Saya%20ucapkan%3A%0A*${rsvpPesan}*.%20Terima%20kasih%20ya.`, "_blank");
         }
 
     }
@@ -177,7 +177,7 @@ export default function Reservasi() {
                         <p className='md:text-lg text-xs font-semibold'>Detik</p>
                     </div>
                 </div>
-                <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#413327] mb-4'>Untuk Yang Berhalangan Hadir, Kami Tambahkan Fitur Dibawah Ini</h1>
+                {/* <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#413327] mb-4'>Untuk Yang Berhalangan Hadir, Kami Tambahkan Fitur Dibawah Ini</h1>
                 <div data-aos="fade-up" className='flex justify-center'>
                     <button type="button" onClick={() => openAmplop()} className="text-white shadow-lg text-md bg-[#413327] hover:bg-[#31261d] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
                         <FontAwesomeIcon icon={faMoneyBill1} /> Amplop
@@ -185,7 +185,7 @@ export default function Reservasi() {
                     <button type="button" onClick={() => openKado()} className="text-white shadow-lg text-md bg-[#413327] hover:bg-[#31261d] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
                         <FontAwesomeIcon icon={faGift} /> Kirim Kado
                     </button>
-                </div>
+                </div> */}
             </div>
             <div className='mt-16 bg-[#413327] py-8'>
                 <h1 data-aos="fade-up" className='text-center text-white text-3xl font-semibold custom-font-3 mx-4 mb-4'>Konfirmasi Kehadiran</h1>
