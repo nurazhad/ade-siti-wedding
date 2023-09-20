@@ -4,7 +4,7 @@ import MusicBg from '../../Components/musicBg';
 import Acara from '../Acara';
 import Couple from '../Couple';
 import Cover from '../Cover';
-import Gallery from '../Gallery';
+// import Gallery from '../Gallery';
 import Home from '../Home';
 import Penutup from '../Penutup';
 import Protocol from '../Protocol';

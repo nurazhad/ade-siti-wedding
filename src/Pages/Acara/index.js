@@ -61,10 +61,11 @@ export default function Acara() {
         </div>
         <center>
           <div data-aos="fade-up" className='max-w-4xl mx-6 rounded-xl'>
-            <div className="mapouter mb-8"><div className="gmap_canvas"><iframe title='maps' className="gmap_iframe rounded-xl shadow-lg" width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.03541659172!2d108.22018197577768!3d-7.34991977231099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f5765c64bb1f9%3A0xd8b04746f0f62ad4!2sUniversitas%20Siliwangi!5e0!3m2!1sid!2sid!4v1694571823089!5m2!1sid!2sid"></iframe></div></div>
+            <div className="mapouter mb-8"><div className="gmap_canvas"><iframe title='maps' className="gmap_iframe rounded-xl shadow-lg" width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63310.67914198907!2d106.5924554029611!3d-7.363150542471724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68040be9b9d4ad%3A0x3480357204bf9183!2sKec.%20Cibitung%2C%20Kabupaten%20Sukabumi%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1695184570389!5m2!1sid!2sid"></iframe>
+            </div></div>
             <center>
 
-              <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Universitas+Siliwangi/@-7.3499198,108.220182,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6f5765c64bb1f9:0xd8b04746f0f62ad4!8m2!3d-7.3499251!4d108.2227569!16s%2Fg%2F122qxyts?entry=ttu" className="text-white text-md bg-[#413327] hover:bg-[#31261d] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Kec.+Cibitung,+Kabupaten+Sukabumi,+Jawa+Barat/@-7.3631505,106.5924554,13z/data=!3m1!4b1!4m6!3m5!1s0x2e68040be9b9d4ad:0x3480357204bf9183!8m2!3d-7.3054979!4d106.6043027!16s%2Fg%2F1237_th8?entry=ttu" className="text-white text-md bg-[#413327] hover:bg-[#31261d] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
                 <FontAwesomeIcon icon={faMapLocation} /> Lihat Lokasi
               </a>
             </center>

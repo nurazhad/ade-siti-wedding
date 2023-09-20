@@ -189,6 +189,7 @@ export default function Reservasi() {
             </div>
             <div className='mt-16 bg-[#413327] py-8'>
                 <h1 data-aos="fade-up" className='text-center text-white text-3xl font-semibold custom-font-3 mx-4 mb-4'>Konfirmasi Kehadiran</h1>
+                
                 <div data-aos="fade-up" className='max-w-lg mx-auto mb-16'>
                     <div className='mx-4'>
                         <input value={rsvpNama} onChange={(e) => { setRsvpNama(e.target.value) }} type="text" autoComplete='off' id="first_name" class="bg-gray-50 text-[#413327] border border-gray-300 font-bold text-sm rounded-lg focus:ring-[#fbeeee] focus:border-[#fbeeee] block w-full p-2.5 mb-2" placeholder="Isi Nama" />
@@ -207,6 +208,7 @@ export default function Reservasi() {
                             <FontAwesomeIcon icon={faMessage} className="mr-2" />
                             Reservasi via Whatsapp
                         </button>
+                        
                     </div>
                 </div>
                 <h1 data-aos="fade-up" className='text-center text-white text-2xl font-semibold custom-font-3 mx-4'>Kirim Pesan</h1>
